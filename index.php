@@ -1,3 +1,3 @@
 <?php
-echo "hello";
+$_SESSION['cart']['id'] = 12;
 ?>
