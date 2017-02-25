@@ -1,0 +1,96 @@
+body{
+    background: url("https://i.ytimg.com/vi/eiGdsH1g20k/maxresdefault.jpg");
+    position: relative;
+    background-size: cover;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.video-container > video {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+@media screen and (max-aspect-ratio: 1920/1080) {
+    .video-container > video {
+        height: 100%;
+    }
+}
+@media screen and (min-aspect-ratio: 1920/1080) {
+    .video-container > video {
+        width: 100%;
+    }
+}
+
+/**
+
+*/
+div.log-in{
+    position: absolute;
+    min-height: 400px;
+    width: 300px;
+    top: 80px;
+    left: 900px;
+    background: rgba(250, 128, 114, 0.73);
+    border-radius: 5px;
+    color: #262406;
+    padding: 10px;
+}
+
+ul.nice-login li{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+ul.nice-login li > input{
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    background: inherit;
+    color: white;
+    font-weight: bolder;
+}
+
+ul.nice-login li > input:focus,
+ul.nice-login li> input:active{
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+}
+
+ul.nice-login li > label{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+ul.nice-login li > input:focus + label{
+    top: -15px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+ul.nice-login li > input.has-value + label{
+    top: -15px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
