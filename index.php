@@ -29,6 +29,11 @@
                 <input type="password" name="password" id="password" size="30"/>
                 <label for="password">Enter your password</label>
             </li>
+            <li>
+                <button id="log-in">Log in</button>
+            </li>
+            <li><a href="">Forgot Password</a></li>
+            <li><a href="">Register</a></li>
         </ul>
     </div>
 

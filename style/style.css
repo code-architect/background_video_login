@@ -45,6 +45,11 @@ div.log-in{
     padding: 10px;
 }
 
+div.log-in h4{
+    display: block;
+    border-bottom: 1px solid #e1e1e1;
+}
+
 ul.nice-login li{
     display: block;
     position: relative;
@@ -74,18 +79,30 @@ ul.nice-login li > label{
     left: 5px;
     top: 10px;
     transition: all 0.3s ease 0s;
+    color: #666;
 }
 
 ul.nice-login li > input:focus + label{
     top: -15px;
     font-weight: bolder;
     font-size: 15px;
+    color: #262406;
 }
 
 ul.nice-login li > input.has-value + label{
     top: -15px;
     font-weight: bolder;
     font-size: 15px;
+    color: #262406;
+}
+
+button#log-in{
+    color: white;
+    background: #b3524f;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 
